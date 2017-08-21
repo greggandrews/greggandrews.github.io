@@ -1,0 +1,87 @@
+body {
+  font: verdana;
+  width: 100%;
+  background-image: url('../img/computer-header2.jpg');
+  background-repeat: no-repeat;
+}
+
+/*menu links styling*/
+li {
+  font-size: 1.8em;
+  list-style: none;
+  padding-right: 15px;
+}
+
+/*styling for hidden menu*/
+p.navbar-text {
+  font-size: 2em;
+  margin-top: 1%;
+  margin-left: 20px;
+  text-align: right;
+  width: 70%;
+}
+
+#title {
+  font-size: 8em;
+  font-weight: bold;
+  color: #0099CC;
+}
+
+#by-line {
+  font-size: 2em;
+  font-weight: bold;
+  color: #303030;
+}
+
+header {
+  margin-top: 10%;
+  margin-bottom: 42%
+}
+
+Section {
+  padding: 20px 0;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#about {
+  border-radius: 10px;
+  margin-left: 10%;
+  margin-bottom:0%;
+  width: 80%;
+}
+
+.section-titles {
+  font-size: 3em;
+  font-weight: bold;
+  color: #0099CC;
+}
+
+#about .lead {
+  color: #0099CC;
+  font-size: 2em;
+}
+
+article {
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  align-items: center;
+  margin: 5%;
+}
+
+#community-blog {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  height: auto;
+}
+
+#bistro {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  height: auto;
+}
